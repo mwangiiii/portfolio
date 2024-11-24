@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Wanjiku Dennis</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@3.3.0/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="index.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css">
+</head>
+<body class="bg-gray-50 text-gray-800 font-sans">
+
+    <!-- Header Section -->
+    <header class="bg-teal-600 text-white py-4">
+        <div class="container mx-auto flex justify-between items-center px-4">
+            <h1 class="text-2xl font-bold">Wanjiku Dennis</h1>
+            <nav>
+                <ul class="flex space-x-6">
+                    <li><a href="#about" class="hover:text-teal-200">About</a></li>
+                    <li><a href="#projects" class="hover:text-teal-200">Projects</a></li>
+                    <li><a href="#contact" class="hover:text-teal-200">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Introduction Section -->
+    <section id="introduction" class="py-20 bg-gradient-to-br from-teal-600 to-teal-400 text-white">
+        <div class="container mx-auto flex flex-col-reverse lg:flex-row items-center px-4">
+            <div data-aos="fade-right" class="w-full lg:w-1/2 text-center lg:text-left">
+                <h2 class="text-4xl font-bold">Hello, I'm <span class="text-yellow-300">Wanjiku Dennis Mwangi</span></h2>
+                <p class="mt-4 text-lg">A Software and IoT Developer passionate about creating impactful digital experiences.</p>
+                <div class="mt-6 flex justify-center lg:justify-start space-x-4">
+                    <a href="#projects" class="bg-yellow-400 hover:bg-yellow-300 text-black font-bold py-2 px-4 rounded">
+                        View Projects
+                    </a>
+                    <a href="https://www.linkedin.com/in/dennis-wanjiku-64631b257/" target="_blank"
+                        class="bg-gray-800 hover:bg-gray-700 text-white font-bold py-2 px-4 rounded">
+                        LinkedIn
+                    </a>
+                </div>
+            </div>
+            <div data-aos="fade-left" class="w-full lg:w-1/2">
+                <img src="images/WhatsApp Image 2024-11-24 at 23.24.27_3fbce22c.jpg" alt="Wanjiku Dennis" class="rounded-lg shadow-lg">
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-20 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 data-aos="zoom-in" class="text-3xl font-bold text-center mb-8">Projects</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Project Card -->
+                <div data-aos="fade-up" class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="assets/project1.jpg" alt="Project 1" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-lg font-bold">Makazi Hub</h3>
+                        <p class="text-gray-600 mt-2">Makazi Hub is a dynamic rental housing platform designed to connect house listers and hunters seamlessly. The system allows users to list, search, and book rental properties with ease. It features role-based dashboards, advanced search filters by location and category, and a visually appealing user interface built with Bootstrap and Laravel Tailwind components. Additional features include user authentication, property image management, and a booking system that ensures a user-friendly experience for both listers and hunters.</p>
+                        <a href="https://github.com/mwangiiii/RentalHousingSystem" class="mt-4 inline-block text-teal-600 hover:underline">View Project</a>
+                    </div>
+                </div>
+                <!-- Additional project cards... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-20 bg-teal-100 text-gray-800">
+        <div class="container mx-auto px-4 text-center">
+            <h2 data-aos="fade-up" class="text-3xl font-bold">About Me</h2>
+            <p data-aos="fade-up" data-aos-delay="100" class="mt-4 text-lg">
+                I am passionate about technology and solving real-world problems using software and IoT.
+            </p>
+            <a href="https://drive.google.com/file/d/1uKAbD4Kqf8BR4q09u9lqxy-EE61V9SG6/view?usp=sharing" target="_blank" class="mt-6 inline-block bg-teal-600 text-white py-2 px-4 rounded hover:bg-teal-500">
+                Download Resume
+            </a>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="bg-gray-800 text-white py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 Wanjiku Dennis. All Rights Reserved.</p>
+            <div class="mt-4 flex justify-center space-x-4">
+                <a href="https://www.linkedin.com/in/dennis-wanjiku-64631b257/"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="mailto:mwangiwanjiku033@gmail.com"><i class="fas fa-envelope fa-2x"></i></a>
+                <a href="https://github.com/mwangiiii"><i class="fab fa-github fa-2x"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
